@@ -1,15 +1,4 @@
-/* 
-////// For this challenge ///////
-
-- All text is in the text.md file
-
-// Requirements
-1. Refer to the design specs for the
-   overall layout 
-2. The image should line up with
-   the sidebar in the section
-   below
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 */
 
 *, *::before, *::after {
@@ -18,8 +7,8 @@
 
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
 }
 
 img {
@@ -54,8 +43,23 @@ header{
     background-color: #136C72;
     padding: .5em 0;
 }
+.logo{
+    margin-top: .5rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+   
+    
+}
 .navbar-list{
+    display: flex;
     list-style-type: none;
+    gap: 1.5rem;
+}
+.navbar-list--primary{
+    margin: 0 auto;
 }
 .navbar-link{
     color: #fff;
@@ -74,8 +78,6 @@ header{
     /* display: flex => flex container */
     display: flex;
     justify-content: space-between;
-    margin-top:3rem ;
-    
     /* can't use yet */
     /* gap: 100px; */
 }
@@ -112,11 +114,10 @@ header{
     text-align: center;
     width: 32%;
 }
-.navbar-list{
-    display: flex;
-    list-style-type: none;
-    gap: 1.5rem;
+.primary{
+    margin-top: 3rem;
 }
+
 
 
 
